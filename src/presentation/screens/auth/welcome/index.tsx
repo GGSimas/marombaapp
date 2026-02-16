@@ -3,37 +3,43 @@ import { useAppSafeArea, useAppTheme } from '@hooks';
 import { ImageBackground, Text, View } from 'react-native';
 import { loginbg } from '@assets';
 
+import { styles } from './styles';
+
 export function WelcomeScreen() {
   const { colors, typography } = useAppTheme();
   const { bottom } = useAppSafeArea();
   return (
-    <View style={{ flex: 1 }}>
+    <View style={styles.container}>
       <ImageBackground
-        style={{ flex: 1, justifyContent: 'center' }}
+        style={styles.content}
         source={loginbg}
         resizeMode="cover"
       >
         <Text
-          style={{
-            ...typography.title_30,
-            color: colors.white,
-            alignSelf: 'center',
-          }}
+          style={[
+            styles.text,
+            {
+              ...typography.title_30,
+              color: colors.white,
+            },
+          ]}
         >
           Marombalog
         </Text>
         <Text
-          style={{
-            ...typography.title_16,
-            color: colors.white,
-            alignSelf: 'center',
-          }}
+          style={[
+            styles.text,
+            {
+              ...typography.title_16,
+              color: colors.white,
+            },
+          ]}
         >
           Transfome o seu treino
         </Text>
       </ImageBackground>
       <Bottomsheet visible>
-        <View style={{ gap: 16, height: 200, marginBottom: bottom }}>
+        <View style={[styles.actions, { marginBottom: bottom }]}>
           <Button title="Acessar conta" onPress={() => {}} />
           <Button
             title="Criar nova conta"
