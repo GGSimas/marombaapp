@@ -69,6 +69,12 @@ const typography = {
     fontSize: 13,
     lineHeight: 18,
   },
+
+  button_title: {
+    fontFamily: 'InterTight-Bold',
+    fontSize: 16,
+    lineHeight: 20,
+  },
 };
 
 export const theme = {

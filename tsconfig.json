@@ -8,7 +8,9 @@
       "@hooks": ["hooks"],
       "@components": ["presentation/components"],
       "@screens": ["presentation/screens"],
-      "@services": ["services"]
+      "@theme": ["presentation/theme"],
+      "@services": ["services"],
+      "@assets": ["assets"]
     }
   },
   "include": ["**/*.ts", "**/*.tsx"],
