@@ -23,6 +23,9 @@ const colors = {
   sidebarForeground: '#bfecd1',
   sidebarPrimary: '#042915',
   sidebarPrimaryForeground: '#a8ffd1',
+  white: '#ffffff',
+  black: '#000000',
+  transparent: 'transparent',
 };
 
 const radius = {
@@ -32,7 +35,41 @@ const radius = {
   _20: 20,
 };
 
-const typography = {};
+const typography = {
+  title_30: {
+    fontFamily: 'Manrope-Bold',
+    fontSize: 30,
+    lineHeight: 38,
+    letterSpacing: 0.2,
+  },
+  title_22: {
+    fontFamily: 'Manrope-SemiBold',
+    fontSize: 22,
+    lineHeight: 28,
+    letterSpacing: 0.2,
+  },
+  title_16: {
+    fontFamily: 'InterTight-Medium',
+    fontSize: 16,
+    lineHeight: 22,
+  },
+  title_15: {
+    fontFamily: 'InterTight-SemiBold',
+    fontSize: 15,
+    lineHeight: 20,
+    letterSpacing: 0.2,
+  },
+  text_16: {
+    fontFamily: 'InterTight-Regular',
+    fontSize: 16,
+    lineHeight: 22,
+  },
+  text_13: {
+    fontFamily: 'InterTight-Regular',
+    fontSize: 13,
+    lineHeight: 18,
+  },
+};
 
 export const theme = {
   colors,

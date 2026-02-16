@@ -12,6 +12,14 @@
 		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		92FC4A458ACAFFFB811D5F9A /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
+		C27532732F436DA300C88CCE /* Manrope-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C275326F2F436DA300C88CCE /* Manrope-Bold.ttf */; };
+		C27532742F436DA300C88CCE /* Manrope-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C27532702F436DA300C88CCE /* Manrope-Medium.ttf */; };
+		C27532752F436DA300C88CCE /* Manrope-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C27532712F436DA300C88CCE /* Manrope-Regular.ttf */; };
+		C27532762F436DA300C88CCE /* Manrope-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C27532722F436DA300C88CCE /* Manrope-SemiBold.ttf */; };
+		C275327B2F436DD500C88CCE /* InterTight-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C27532772F436DD500C88CCE /* InterTight-Bold.ttf */; };
+		C275327C2F436DD500C88CCE /* InterTight-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C275327A2F436DD500C88CCE /* InterTight-SemiBold.ttf */; };
+		C275327D2F436DD500C88CCE /* InterTight-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C27532782F436DD500C88CCE /* InterTight-Medium.ttf */; };
+		C275327E2F436DD500C88CCE /* InterTight-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C27532792F436DD500C88CCE /* InterTight-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +32,14 @@
 		5DCACB8F33CDC322A6C60F78 /* libPods-marombalog.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-marombalog.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		761780EC2CA45674006654EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = marombalog/AppDelegate.swift; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = marombalog/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C275326F2F436DA300C88CCE /* Manrope-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Manrope-Bold.ttf"; sourceTree = "<group>"; };
+		C27532702F436DA300C88CCE /* Manrope-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Manrope-Medium.ttf"; sourceTree = "<group>"; };
+		C27532712F436DA300C88CCE /* Manrope-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Manrope-Regular.ttf"; sourceTree = "<group>"; };
+		C27532722F436DA300C88CCE /* Manrope-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Manrope-SemiBold.ttf"; sourceTree = "<group>"; };
+		C27532772F436DD500C88CCE /* InterTight-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "InterTight-Bold.ttf"; sourceTree = "<group>"; };
+		C27532782F436DD500C88CCE /* InterTight-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "InterTight-Medium.ttf"; sourceTree = "<group>"; };
+		C27532792F436DD500C88CCE /* InterTight-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "InterTight-Regular.ttf"; sourceTree = "<group>"; };
+		C275327A2F436DD500C88CCE /* InterTight-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "InterTight-SemiBold.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -42,6 +58,14 @@
 		13B07FAE1A68108700A75B9A /* marombalog */ = {
 			isa = PBXGroup;
 			children = (
+				C27532772F436DD500C88CCE /* InterTight-Bold.ttf */,
+				C27532782F436DD500C88CCE /* InterTight-Medium.ttf */,
+				C27532792F436DD500C88CCE /* InterTight-Regular.ttf */,
+				C275327A2F436DD500C88CCE /* InterTight-SemiBold.ttf */,
+				C275326F2F436DA300C88CCE /* Manrope-Bold.ttf */,
+				C27532702F436DA300C88CCE /* Manrope-Medium.ttf */,
+				C27532712F436DA300C88CCE /* Manrope-Regular.ttf */,
+				C27532722F436DA300C88CCE /* Manrope-SemiBold.ttf */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				761780EC2CA45674006654EE /* AppDelegate.swift */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
@@ -158,6 +182,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C27532732F436DA300C88CCE /* Manrope-Bold.ttf in Resources */,
+				C27532742F436DA300C88CCE /* Manrope-Medium.ttf in Resources */,
+				C27532752F436DA300C88CCE /* Manrope-Regular.ttf in Resources */,
+				C27532762F436DA300C88CCE /* Manrope-SemiBold.ttf in Resources */,
+				C275327B2F436DD500C88CCE /* InterTight-Bold.ttf in Resources */,
+				C275327C2F436DD500C88CCE /* InterTight-SemiBold.ttf in Resources */,
+				C275327D2F436DD500C88CCE /* InterTight-Medium.ttf in Resources */,
+				C275327E2F436DD500C88CCE /* InterTight-Regular.ttf in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				92FC4A458ACAFFFB811D5F9A /* PrivacyInfo.xcprivacy in Resources */,
@@ -191,9 +223,13 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-marombalog/Pods-marombalog-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-marombalog/Pods-marombalog-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -230,9 +266,13 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-marombalog/Pods-marombalog-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-marombalog/Pods-marombalog-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
