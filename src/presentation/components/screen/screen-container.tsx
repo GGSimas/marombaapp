@@ -16,16 +16,12 @@ export function ViewContainer({
   children,
   backgroundColor,
 }: Readonly<ContainerProps>) {
-  const { top, bottom } = useAppSafeArea();
   return (
     <View
       style={[
         $container,
         {
           backgroundColor,
-          paddingTop: top,
-          paddingBottom: bottom,
-          paddingHorizontal: 24,
         },
       ]}
     >
@@ -38,18 +34,9 @@ export function ScrollViewContainer({
   children,
   backgroundColor,
 }: Readonly<ContainerProps>) {
-  const { top, bottom } = useAppSafeArea();
   return (
     <ScrollView
-      style={[
-        $container,
-        {
-          backgroundColor,
-          paddingTop: top,
-          paddingBottom: bottom,
-          paddingHorizontal: 24,
-        },
-      ]}
+      style={[$container, { backgroundColor }]}
       contentContainerStyle={{ flexGrow: 1 }}
       keyboardShouldPersistTaps="handled"
     >
