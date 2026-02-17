@@ -1,34 +1,22 @@
 import {
   ArrowBack,
+  BackButton,
   Button,
   Screen,
   SecurityTextInput,
   TextInput,
 } from '@components';
 import { useAppTheme } from '@hooks';
-import { useState } from 'react';
-import { Pressable, Text, View } from 'react-native';
+import { Text, View } from 'react-native';
 
 export function LoginScreen() {
-  const { colors, radius, typography } = useAppTheme();
+  const { colors, typography } = useAppTheme();
   return (
     <>
       <Screen scrollable>
-        <Pressable
-          hitSlop={40}
-          style={{
-            backgroundColor: colors.secondary,
-            marginTop: 40,
-            width: 30,
-            height: 30,
-            borderRadius: radius._20,
-            justifyContent: 'center',
-            alignItems: 'center',
-            marginBottom: 32,
-          }}
-        >
-          <ArrowBack size={16} color={colors.white} />
-        </Pressable>
+        <View style={{ marginTop: 40, marginBottom: 32 }}>
+          <BackButton onPress={() => {}} />
+        </View>
 
         <View style={{ marginBottom: 32 }}>
           <Text style={{ ...typography.title_30, color: colors.foreground }}>
