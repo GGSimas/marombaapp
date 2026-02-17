@@ -14,6 +14,7 @@ module.exports = {
           '@theme': './src/presentation/theme',
           '@assets': './src/assets',
           '@services': './src/services',
+          '@routes': './src/routes',
         },
       },
     ],

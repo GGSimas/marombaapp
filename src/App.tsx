@@ -1,4 +1,4 @@
-import { LoginScreen, SignUpScreen, WelcomeScreen } from '@screens';
+import { Routes } from '@routes';
 import { StatusBar } from 'react-native';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 
@@ -6,7 +6,7 @@ function App() {
   return (
     <SafeAreaProvider>
       <StatusBar barStyle="light-content" translucent />
-      <SignUpScreen />
+      <Routes />
     </SafeAreaProvider>
   );
 }

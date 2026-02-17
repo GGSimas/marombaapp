@@ -6,13 +6,16 @@ import {
   TextInput,
 } from '@components';
 import { useAppTheme } from '@hooks';
+import { AuthScreenNavigationProps } from '@routes';
 import { Text, View } from 'react-native';
 
-export function SignUpScreen() {
+export function SignUpScreen({
+  navigation,
+}: AuthScreenNavigationProps<'signup'>) {
   const { colors, typography } = useAppTheme();
   return (
     <Screen scrollable>
-      <BackButton onPress={() => {}} />
+      <BackButton onPress={() => navigation.goBack()} />
       <View style={{ marginTop: 20 }}>
         <Text style={{ ...typography.title_30, color: colors.foreground }}>
           Crie sua conta

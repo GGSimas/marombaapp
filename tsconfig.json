@@ -10,7 +10,8 @@
       "@screens": ["presentation/screens"],
       "@theme": ["presentation/theme"],
       "@services": ["services"],
-      "@assets": ["assets"]
+      "@assets": ["assets"],
+      "@routes": ["routes"]
     }
   },
   "include": ["**/*.ts", "**/*.tsx"],
