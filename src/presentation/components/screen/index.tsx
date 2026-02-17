@@ -17,7 +17,11 @@ export function Screen({
   return (
     <KeyboardAvoidingView
       style={{ flex: 1 }}
-      behavior={Platform.OS === 'ios' ? 'padding' : undefined}
+      behavior="padding"
+      keyboardVerticalOffset={Platform.select({
+        ios: 0,
+        android: -100,
+      })}
     >
       <Container backgroundColor={colors.background}>
         <View

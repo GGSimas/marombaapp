@@ -37,7 +37,9 @@ export function ScrollViewContainer({
   return (
     <ScrollView
       style={[$container, { backgroundColor }]}
-      contentContainerStyle={{ flexGrow: 1 }}
+      contentContainerStyle={{
+        flexGrow: 1,
+      }}
       keyboardShouldPersistTaps="handled"
     >
       {children}

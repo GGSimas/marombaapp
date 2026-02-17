@@ -4,3 +4,4 @@ export * from './buttons';
 export * from './icon';
 export * from './textinput';
 export * from './securityTextInput';
+export * from './backbutton';
