@@ -7,15 +7,18 @@ import {
   TextInput,
 } from '@components';
 import { useAppTheme } from '@hooks';
+import { AuthScreenNavigationProps } from '@routes';
 import { Text, View } from 'react-native';
 
-export function LoginScreen() {
+export function LoginScreen({
+  navigation,
+}: AuthScreenNavigationProps<'login'>) {
   const { colors, typography } = useAppTheme();
   return (
     <>
       <Screen scrollable>
         <View style={{ marginTop: 40, marginBottom: 32 }}>
-          <BackButton onPress={() => {}} />
+          <BackButton onPress={() => navigation.goBack()} />
         </View>
 
         <View style={{ marginBottom: 32 }}>

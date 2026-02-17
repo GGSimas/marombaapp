@@ -20,7 +20,7 @@ export function Screen({
       behavior="padding"
       keyboardVerticalOffset={Platform.select({
         ios: 0,
-        android: -100,
+        android: -50,
       })}
     >
       <Container backgroundColor={colors.background}>

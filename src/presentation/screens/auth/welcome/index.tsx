@@ -4,8 +4,11 @@ import { ImageBackground, Text, View } from 'react-native';
 import { loginbg } from '@assets';
 
 import { styles } from './styles';
+import { AuthScreenNavigationProps } from '@routes';
 
-export function WelcomeScreen() {
+export function WelcomeScreen({
+  navigation,
+}: AuthScreenNavigationProps<'welcome'>) {
   const { colors, typography } = useAppTheme();
   const { bottom } = useAppSafeArea();
   return (
@@ -40,11 +43,14 @@ export function WelcomeScreen() {
       </ImageBackground>
       <Bottomsheet visible>
         <View style={[styles.actions, { marginBottom: bottom }]}>
-          <Button title="Acessar conta" onPress={() => {}} />
+          <Button
+            title="Acessar conta"
+            onPress={() => navigation.navigate('login')}
+          />
           <Button
             title="Criar nova conta"
             variant="outline"
-            onPress={() => {}}
+            onPress={() => navigation.navigate('signup')}
           />
           <Button
             title="Esqueci minha senha"
